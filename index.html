@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>V-Docs</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 48px 20px;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f6f7f9; color: #1a1d21;
+    display: flex; justify-content: center;
+  }
+  main { max-width: 620px; width: 100%; }
+  h1 { font-size: 30px; margin: 0 0 6px; letter-spacing: -0.4px; }
+  .tag { color: #6b7280; margin: 0 0 32px; font-size: 15px; }
+  h2 { font-size: 15px; text-transform: uppercase; letter-spacing: .6px; color: #6b7280; margin: 32px 0 10px; }
+  ul { padding-left: 20px; margin: 0; }
+  li { margin: 6px 0; }
+  .links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
+  .links a {
+    display: inline-block; padding: 9px 16px; border-radius: 8px;
+    background: #113A5D; color: #fff; text-decoration: none; font-size: 15px;
+  }
+  .links a.ghost { background: transparent; color: #113A5D; border: 1px solid #c7ccd4; }
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #e2e5ea; color: #6b7280; font-size: 14px; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #14171a; color: #e6e8eb; }
+    .tag, h2, footer { color: #9aa3ad; }
+    .links a { background: #2d6da3; }
+    .links a.ghost { color: #8fb8dd; border-color: #39414a; }
+    footer { border-top-color: #262b31; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>V-Docs</h1>
+  <p class="tag">Ứng dụng di động hỗ trợ công việc phục vụ mặt đất tại sân bay.</p>
+
+  <h2>V-Docs làm gì</h2>
+  <ul>
+    <li>Theo dõi chuyến bay đến và đi theo thời gian thực</li>
+    <li>Bản đồ hành trình, giờ hạ cánh dự kiến, bãi đỗ, số tàu</li>
+    <li>Thông báo khi chuyến sắp hạ cánh hoặc đổi giờ, đổi bãi</li>
+    <li>Biểu mẫu và báo cáo ca trực, ký tên và xuất PDF ngay trên máy</li>
+  </ul>
+
+  <h2>Dùng thử</h2>
+  <p>Ứng dụng có chế độ Dùng thử với dữ liệu mẫu, không cần tài khoản.</p>
+
+  <div class="links">
+    <a href="https://apps.apple.com/us/app/v-docs/id6761796937">Tải trên App Store</a>
+    <a class="ghost" href="https://phuchermes.github.io/vdocs-team/support.html">Hỗ trợ</a>
+    <a class="ghost" href="https://phuchermes.github.io/vdocs-team/privacy.html">Quyền riêng tư</a>
+  </div>
+
+  <footer>
+    Liên hệ: <a href="mailto:dandangcap2589@gmail.com">dandangcap2589@gmail.com</a><br>
+    © 2026 Phuc Le Hong
+  </footer>
+</main>
+</body>
+</html>
