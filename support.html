@@ -1,9 +1,191 @@
-<h1>V-Docs Support</h1>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hỗ trợ — V-Docs</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 46rem; margin: 0 auto; padding: 1.5rem 1.25rem 4rem;
+         font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  h1 { font-size: 1.6rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  h3 { font-size: 1rem; margin-top: 1.5rem; }
+  .meta { opacity: .7; font-size: .9rem; margin-top: 0; }
+  ul { padding-left: 1.2rem; }
+  li { margin: .35rem 0; }
+  .box { border: 1px solid rgba(128,128,128,.35); border-radius: 10px; padding: .9rem 1rem; margin: 1rem 0; }
+  .box p { margin: .3rem 0; }
+  table { border-collapse: collapse; width: 100%; margin: .75rem 0; font-size: .95rem; }
+  th, td { border: 1px solid rgba(128,128,128,.35); padding: .5rem .6rem; text-align: left; vertical-align: top; }
+  hr { margin: 3rem 0; border: 0; border-top: 1px solid rgba(128,128,128,.3); }
+  .note { opacity: .75; font-size: .92rem; }
+</style>
+</head>
+<body>
 
-<p>This app is designed for VIAGS aviation ground operations support.</p>
+<h1>Hỗ trợ — V-Docs</h1>
+<p class="meta">Cập nhật lần cuối: 17/09/2026</p>
 
-<p>If you need support for V-Docs, please contact:</p>
+<p>V-Docs là công cụ nghiệp vụ dành cho nhân viên phục vụ mặt đất tại sân bay: lập biểu mẫu và báo cáo,
+theo dõi chuyến bay đến, ký và gửi hồ sơ, tra cứu tài liệu nghiệp vụ.</p>
 
-<p>Email: dandangcap2589@gmail.com</p>
+<div class="box">
+  <p><strong>Liên hệ hỗ trợ</strong></p>
+  <p>Email: <a href="mailto:dandangcap2589@gmail.com">dandangcap2589@gmail.com</a></p>
+  <p>Thời gian phản hồi: trong vòng 1–2 ngày làm việc.</p>
+  <p class="note">Gửi kèm <strong>mã nhân viên</strong>, <strong>loại máy</strong> và <strong>ảnh chụp màn hình</strong>
+  thì xử lý nhanh hơn nhiều. Nếu là lỗi liên quan tới chuyến bay, ghi thêm <strong>số hiệu chuyến và ngày</strong>.</p>
+</div>
 
-<p>We will respond as soon as possible.</p>
+<h2>Dùng thử không cần tài khoản</h2>
+<p>Ở màn hình đăng nhập có nút <strong>Demo Mode</strong>. Bấm vào là vào thẳng ứng dụng, không cần mã nhân viên
+hay mật khẩu.</p>
+<p>Chế độ này chạy trên dữ liệu mẫu, không chạm tới dữ liệu khai thác thật. Bạn xem được giao diện và luồng
+làm việc, nhưng không gửi hay lưu hồ sơ được, và phần hỏi đáp AI giới hạn số câu mỗi ngày.</p>
+
+<h2>Câu hỏi thường gặp</h2>
+
+<h3>Quên mật khẩu</h3>
+<p>Ở màn hình đăng nhập chọn <strong>Quên mật khẩu</strong>, nhập mã nhân viên. Mật khẩu sẽ được đặt lại về
+mật khẩu mặc định, đăng nhập lại bằng mật khẩu đó. Cần đổi sang mật khẩu khác thì liên hệ quản trị viên
+của đơn vị.</p>
+
+<h3>Ứng dụng báo "Máy chủ không khả dụng"</h3>
+<p>Gần như luôn là do máy đang bật <strong>VPN hoặc proxy</strong>. V-Docs từ chối kết nối trong tình huống đó
+để bảo vệ dữ liệu khai thác. Tắt VPN/proxy rồi mở lại ứng dụng.</p>
+<p class="note">Một số ứng dụng chặn quảng cáo hoặc "bảo vệ riêng tư" cũng chạy dưới dạng VPN — kiểm cả những
+ứng dụng đó, và kiểm cả iCloud Private Relay trên iPhone.</p>
+
+<h3>Mở ứng dụng ra chỉ thấy màn hình đen</h3>
+<p>Ứng dụng tự khoá khi phát hiện máy đã bị can thiệp hệ thống (jailbreak/root) hoặc đang bị gắn công cụ
+gỡ lỗi. Dùng máy ở trạng thái nguyên bản là vào được bình thường.</p>
+
+<h3>Không nhận được thông báo chuyến bay</h3>
+<ul>
+  <li>Phải <strong>ghim chuyến</strong> thì mới có thông báo cho chuyến đó.</li>
+  <li>Kiểm công tắc chuông ngay trong ứng dụng — biểu tượng chuông có thể đang ở trạng thái tắt.</li>
+  <li>iOS: Cài đặt → V-Docs → Thông báo, bật <em>Cho phép Thông báo</em>.</li>
+  <li>Android: cho phép ứng dụng chạy nền và <strong>miễn tối ưu hoá pin</strong>. Nhiều dòng máy tự tắt
+      ứng dụng nền, thông báo sẽ đến trễ hoặc không đến.</li>
+  <li>Thông báo gắn với <strong>từng máy</strong>. Ghim chuyến ở máy này thì máy kia không nhận.</li>
+</ul>
+
+<h3>Lượt hỏi AI hoạt động thế nào</h3>
+<ul>
+  <li><strong>Gemini miễn phí, không giới hạn.</strong> Không cần lượt.</li>
+  <li>ChatGPT và Claude tốn <strong>1 lượt mỗi câu hỏi</strong>.</li>
+  <li>Lấy lượt bằng hai cách: <strong>xem một quảng cáo ngắn</strong> để đổi 1 lượt, hoặc <strong>mua gói</strong>
+      trong ứng dụng.</li>
+  <li>Lượt gắn với <strong>mã nhân viên</strong>, không gắn với máy — đổi máy hay cài lại ứng dụng thì lượt vẫn còn.</li>
+  <li><strong>Lượt có hạn 30 ngày kể từ khi được cấp, hết hạn là mất dù chưa dùng.</strong> Ứng dụng sẽ nhắc
+      khi lượt sắp hết hạn.</li>
+</ul>
+
+<h3>Đã thanh toán nhưng lượt chưa vào ví</h3>
+<p>Lượt thường vào trong vòng vài giây. Nếu chưa thấy, đóng và mở lại màn hình để tải lại số dư.</p>
+<p>Quá 10 phút vẫn chưa có thì gửi email cho chúng tôi kèm <strong>mã nhân viên</strong>, <strong>gói đã mua</strong>
+và <strong>thời điểm mua</strong>. Tiền đã trừ thì lượt sẽ được cộng, không mất đi đâu.</p>
+
+<h3>Muốn hoàn tiền</h3>
+<p>Mọi giao dịch mua đều do Apple xử lý, nên yêu cầu hoàn tiền cũng phải gửi qua Apple tại
+<a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. Chúng tôi không có quyền hoàn tiền
+thay Apple.</p>
+<p class="note">Khi Apple chấp thuận hoàn tiền, số lượt tương ứng sẽ được thu hồi khỏi tài khoản.</p>
+
+<h3>Đổi điện thoại mới</h3>
+<p>Cài ứng dụng rồi đăng nhập bằng mã nhân viên cũ. Hồ sơ, biểu mẫu và lượt AI đều nằm trên máy chủ nên
+còn nguyên. Riêng <strong>chuyến đã ghim và thông báo</strong> là theo từng máy, cần ghim lại trên máy mới.</p>
+
+<h3>Ứng dụng bắt cập nhật mới vào được</h3>
+<p>Một số bản cũ bị chặn vì lý do bảo mật hoặc vì không còn tương thích với máy chủ. Cập nhật từ App Store
+là dùng tiếp được.</p>
+
+<h3>Quảng cáo</h3>
+<p>Ứng dụng chỉ hiện quảng cáo khi bạn <strong>chủ động bấm</strong> để đổi lấy lượt hỏi AI — không có quảng cáo
+xen ngang trong lúc làm việc. Muốn quảng cáo bớt cá nhân hoá: iOS → Cài đặt → Quyền riêng tư &amp; Bảo mật
+→ Theo dõi.</p>
+
+<h2>Cấp tài khoản, khoá tài khoản, phân quyền biểu mẫu</h2>
+<p>Những việc này do quản trị viên của đơn vị thực hiện, không xử lý qua email hỗ trợ. Liên hệ người phụ
+trách V-Docs tại đơn vị bạn.</p>
+
+<h2>Quyền riêng tư</h2>
+<p>Xem <a href="privacy.html">Chính sách quyền riêng tư</a> để biết ứng dụng thu thập dữ liệu gì và chia sẻ
+với những bên nào.</p>
+
+<hr>
+
+<h1>Support — V-Docs</h1>
+<p class="meta">Last updated: 17 September 2026 — The Vietnamese version above is the authoritative text.</p>
+
+<p>V-Docs is a work tool for airport ground handling staff: creating forms and reports, tracking arriving
+flights, signing and submitting paperwork, and searching operational documents.</p>
+
+<div class="box">
+  <p><strong>Contact support</strong></p>
+  <p>Email: <a href="mailto:dandangcap2589@gmail.com">dandangcap2589@gmail.com</a></p>
+  <p>Response time: within 1–2 business days.</p>
+  <p class="note">Please include your employee ID, device model, and a screenshot. For flight-related issues,
+  add the flight number and date.</p>
+</div>
+
+<h2>Trying the app without an account</h2>
+<p>The sign-in screen has a <strong>Demo Mode</strong> button that opens the app with no credentials required.
+Demo Mode runs on sample data and never touches live operational records; submitting and saving are
+disabled, and the AI assistant is limited to a set number of questions per day.</p>
+
+<h2>Frequently asked questions</h2>
+
+<h3>Forgotten password</h3>
+<p>On the sign-in screen choose <strong>Quên mật khẩu</strong> (Forgot password) and enter your employee ID.
+The password is reset to the default password. To change it to something else, contact your organisation's
+administrator.</p>
+
+<h3>The app says "Máy chủ không khả dụng" (server unavailable)</h3>
+<p>This is almost always a <strong>VPN or proxy</strong> being active. V-Docs refuses to connect in that case to
+protect operational data. Turn the VPN or proxy off and reopen the app. Note that ad blockers, privacy
+apps, and iCloud Private Relay also run as VPNs.</p>
+
+<h3>The app opens to a black screen</h3>
+<p>The app locks itself when it detects a jailbroken/rooted device or an attached debugger. It will start
+normally on an unmodified device.</p>
+
+<h3>Flight notifications are not arriving</h3>
+<ul>
+  <li>You must <strong>pin a flight</strong> to receive notifications for it.</li>
+  <li>Check the bell toggle inside the app — it may be switched off.</li>
+  <li>iOS: Settings → V-Docs → Notifications → Allow Notifications.</li>
+  <li>Android: allow background activity and <strong>exempt the app from battery optimisation</strong>.</li>
+  <li>Notifications are per device — pinning on one phone does not notify another.</li>
+</ul>
+
+<h3>How AI credits work</h3>
+<p>Gemini is free and unlimited. ChatGPT and Claude cost <strong>one credit per question</strong>. You can earn a
+credit by watching a short rewarded ad, or buy a credit pack in the app. Credits are tied to your employee
+ID rather than a device, so they survive reinstalling or switching phones.
+<strong>Credits expire 30 days after they are granted and are lost if unused</strong>; the app warns you beforehand.</p>
+
+<h3>Paid but credits have not arrived</h3>
+<p>Credits normally arrive within seconds — close and reopen the screen to refresh the balance. If more than
+10 minutes pass, email us with your employee ID, the pack purchased, and the time of purchase. Paid credits
+are never lost.</p>
+
+<h3>Refunds</h3>
+<p>All purchases are processed by Apple, so refund requests go through
+<a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. We cannot issue refunds on Apple's
+behalf. When Apple grants a refund, the corresponding credits are revoked.</p>
+
+<h3>New phone</h3>
+<p>Install the app and sign in with the same employee ID. Records, forms, and AI credits are stored on the
+server and remain intact. Pinned flights and notifications are per device and need to be set up again.</p>
+
+<h3>Accounts and permissions</h3>
+<p>Issuing accounts, disabling accounts, and granting form permissions are handled by your organisation's
+V-Docs administrator, not through support email.</p>
+
+<h2>Privacy</h2>
+<p>See our <a href="privacy.html">Privacy Policy</a> for what the app collects and who it is shared with.</p>
+
+</body>
+</html>
